@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr" translate="no" class="notranslate">
+<head>
+    <meta charset="UTF-8">
+    <meta name="google" content="notranslate">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire test</title>
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+<body>
+    <h1 class="titre">formulaire de test</h1>
+<div class="formulaire">
+
+<form action="https://formspree.io/f/xeaqlqlo" method="post">
+
+<div class="dprenom">
+<label for="prenom" class="lprenom">prenom :</label>
+<input type="text" id="prenom" minlength="3" maxlength="25" name="prenom"   required >
+</div>
+
+<div class="dnom">
+<label for="nom" class="lnom">nom :</label> 
+<input type="text" name="nom" id="nom" minlength="1" maxlength="50" required>
+</div>
+
+<div class="dddn">
+  <label for="ddn" class="ldn">date de naissance :</label>
+<input type="date" name="date de naissance" class="dn" required>
+</div>
+
+<div class="dtel">
+<label for="tel" class="ltel">numero de telephone:</label>
+<input type="tel" class="tel" name="telephone" id="tel" pattern="[0-9]{10}" title="entre un numero de telephone a 10 chiffre" required>
+</div>
+
+<div class="demail">
+<label for="email" class="lemail">email</label>
+<input type="email" name="email" id="email" class="email" required>
+</div>
+
+<div class="dmdp">
+<label for="mdp" class="lmdp">mot de passe </label>
+<input type="password" name="mot de passe " class="mdp" id="mdp" minlength="8" maxlength="18" required>
+</div>
+
+<div class="radio">
+    <label for="homme" class="lhomme">homme</label>
+<input type="radio" name="sexe" value="homme" id="homme" > 
+<label for="femme" class="lfemme">femme</label>
+<input type="radio" name="sexe" id="femme" value="femme">
+</div>
+<div class="dcheck">
+<input type="checkbox" name="condition" class="checkbox" id="condition" value="accepter" required>
+<details>
+    <summary>jaccepte les condition</summary> 
+    <div class="dp">
+<p ><strong>toute information entrer dans le formulaire doivent etre fausse <br>les information mise et envoyer depuis le formulaire ne sont pas la responsabiliter du developeur si elle sont utiler a mauvais escient ou rendu public <br></strong> merci de votre comprehension !</p>
+</div>
+</details>
+</div>
+<div class="button">
+<button class="snp" type="submit">S'inscrire</button>
+
+<button class="reset" type="reset">reinitialiser</button>
+</div>
+</form>
+
+</div>
+
+</body>
+</html>

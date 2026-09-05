@@ -1,0 +1,237 @@
+*{
+    background-color: blue;
+}
+.formulaire{
+    display: flex;
+    justify-content: center;
+
+}
+.titre{
+    display: flex;
+   
+    border: 5px solid black;
+    border-radius: 40px;
+    padding: 20px;
+    width: fit-content;
+   margin: auto;
+   
+}
+form{
+    display: flex;
+    margin-top: 100px;
+ padding: 55px;
+ height: auto;
+ flex-direction: column;
+ gap: 10px;
+    border: 10px solid black;
+    background-color: gray;
+}
+.radio{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 17px;
+    background-color: gray;
+    color: red;
+}
+.button{
+    display: flex;
+gap: 10px;
+flex-direction: column;
+background-color: grey;
+justify-content: center;
+align-items: center;
+}
+.snp{
+    color: white;
+    background-color: black;
+cursor: pointer;
+width: 150px;
+border: 5px solid white;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+border-radius: 50px;
+height: 40px;
+font-size: 20px;
+transition: 0.7s;
+}
+.snp:hover{
+    color: black;
+    background-color: white;
+    transform: scale(1.1);
+}
+.reset{
+color: white;
+background-color: black;
+cursor: pointer;
+width: 150px;
+border: 5px solid white;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+border-radius: 50px;
+height: 40px;
+font-size: 20px;
+transition: 0.7s;
+}
+.reset:hover{
+    color: black;
+background-color: white;
+transform: scale(1.1);
+}
+#prenom{
+    background-color: black;
+    color: red;
+    cursor: pointer;
+    border: 3px solid white;
+}
+.lprenom{
+    background-color: gray;
+    color: blue;
+    font-size: 17px;
+}
+.dprenom{
+    display: flex;
+align-items: center;
+justify-content: center;
+gap: 8px;
+background-color: grey;
+}
+
+
+#nom{
+    background-color: black;
+    color: red;
+    cursor: pointer;
+    border: 3px solid white;
+}
+.lnom{
+    background-color: gray;
+    color: blue;
+    font-size: 17px;
+}
+.dnom{
+    display: flex;
+align-items: center;
+justify-content: center;
+gap: 8px;
+background-color: grey;
+}
+
+
+.dn{
+    background-color: black;
+    color: red;
+    cursor: pointer;
+    border: 3px solid white;
+}
+
+.ldn{
+    background-color: gray;
+    color: blue;
+    font-size: 17px;
+}
+
+
+.dddn{
+    display: flex;
+align-items: center;
+justify-content: center;
+gap: 8px;
+background-color: grey;
+}
+.tel{
+    background-color: black;
+    color: red;
+    cursor: pointer;
+    border: 3px solid white;
+}
+
+.ltel{
+    background-color: gray;
+    color: blue;
+    font-size: 17px;
+}
+
+
+.dtel{
+    display: flex;
+align-items: center;
+justify-content: center;
+gap: 8px;
+background-color: grey;
+}
+.email{
+    background-color: black;
+    color: red;
+    cursor: pointer;
+    border: 3px solid white;
+}
+
+.lemail{
+    background-color: gray;
+    color: blue;
+    font-size: 17px;
+}
+
+
+.demail{
+    display: flex;
+align-items: center;
+justify-content: center;
+gap: 8px;
+background-color: grey;
+}
+.mdp{
+    background-color: black;
+    color: red;
+    cursor: pointer;
+    border: 3px solid white;
+}
+
+.lmdp{
+    background-color: gray;
+    color: blue;
+    font-size: 17px;
+}
+
+
+.dmdp{
+    display: flex;
+align-items: center;
+justify-content: center;
+gap: 8px;
+background-color: grey;
+}
+.lhomme{
+    background-color: grey;
+}
+.lfemme{
+    background-color: grey;
+}
+.checkbox{
+    transform: scale(2);
+    cursor: pointer;
+}
+.dcheck{
+    display: flex;
+    align-items: center;
+    color: yellow;
+    background-color: gray;
+}
+summary{
+    background-color: gray;
+    cursor: pointer;
+}
+p{
+    background-color: gray;
+}
+strong{
+    background-color: grey;
+}
+details{
+    background-color: grey;
+}
