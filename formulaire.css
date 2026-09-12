@@ -8,7 +8,7 @@
 }
 .titre{
     display: flex;
-   
+   background-color: white;
     border: 5px solid black;
     border-radius: 40px;
     padding: 20px;
@@ -32,7 +32,7 @@ form{
     gap: 8px;
     font-size: 17px;
     background-color: gray;
-    color: red;
+    color:white;
 }
 .button{
     display: flex;
@@ -84,13 +84,13 @@ transform: scale(1.1);
 }
 #prenom{
     background-color: black;
-    color: red;
+    color: white;
     cursor: pointer;
     border: 3px solid white;
 }
 .lprenom{
     background-color: gray;
-    color: blue;
+    color: aqua;
     font-size: 17px;
 }
 .dprenom{
@@ -104,13 +104,13 @@ background-color: grey;
 
 #nom{
     background-color: black;
-    color: red;
+    color: white;
     cursor: pointer;
     border: 3px solid white;
 }
 .lnom{
     background-color: gray;
-    color: blue;
+    color: aqua;
     font-size: 17px;
 }
 .dnom{
@@ -124,14 +124,14 @@ background-color: grey;
 
 .dn{
     background-color: black;
-    color: red;
+    color: white;
     cursor: pointer;
     border: 3px solid white;
 }
 
 .ldn{
     background-color: gray;
-    color: blue;
+    color: aqua;
     font-size: 17px;
 }
 
@@ -145,14 +145,14 @@ background-color: grey;
 }
 .tel{
     background-color: black;
-    color: red;
+    color: white;
     cursor: pointer;
     border: 3px solid white;
 }
 
 .ltel{
     background-color: gray;
-    color: blue;
+    color: aqua;
     font-size: 17px;
 }
 
@@ -166,14 +166,14 @@ background-color: grey;
 }
 .email{
     background-color: black;
-    color: red;
+    color: white;
     cursor: pointer;
     border: 3px solid white;
 }
 
 .lemail{
     background-color: gray;
-    color: blue;
+    color: aqua;
     font-size: 17px;
 }
 
@@ -187,14 +187,14 @@ background-color: grey;
 }
 .mdp{
     background-color: black;
-    color: red;
+    color: white;
     cursor: pointer;
     border: 3px solid white;
 }
 
 .lmdp{
     background-color: gray;
-    color: blue;
+    color: aqua;
     font-size: 17px;
 }
 
@@ -213,7 +213,7 @@ background-color: grey;
     background-color: grey;
 }
 .checkbox{
-    transform: scale(2);
+    transform: scale(1.5);
     cursor: pointer;
 }
 .dcheck{
